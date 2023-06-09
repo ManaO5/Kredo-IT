@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage-Activity</title>
+    <link rel="stylesheet" href="assets/css/act-style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- (1) Header Area -->
+        <div class="nav" id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href=""><img src="assets/images/kredo-logo.png" alt="kredo_icon"></a></li>
+                <li><a href="#">Schedules</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <!-- (2) Banner Area -->
+
+        <div class="banner" id="banner">
+            <div class="black"></div>
+            <div class="banner-text">
+                <h3>Kredo Japan Online</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nihil sequi repudiandae sunt ipsum inventore magni voluptatem aspernatur quis, corporis provident sed molestias quos ad expedita. Unde sit eligendi illo.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <!-- (3) Content Area-->
+        <div class="content" id="content">
+            <div class="header">
+                <h4>About</h4>
+            </div>
+            <div class="article1">
+                <img src="assets/images/img1.png" alt="img1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas accusamus obcaecati temporibus molestiae? Quisquam tenetur quam quos doloremque nostrum, omnis repellat ipsum voluptatibus error, ad doloribus! Molestiae facere et consequuntur?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="article2">
+                <img src="assets/images/img2.png" alt="img2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas accusamus obcaecati temporibus molestiae? Quisquam tenetur quam quos doloremque nostrum, omnis repellat ipsum voluptatibus error, ad doloribus! Molestiae facere et consequuntur?</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <!-- (3.5) Article Area -->
+        <div class="course" id="course">
+            <div class="course-header">
+                <h3>Course</h3>
+            </div>
+            <div class="course-items course1">
+                <div class="course-text">
+                    <a href="#"><img src="assets/images/img1.png" alt="kredo_icon"></a>
+                    <h3>Web Design Course</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque impedit ipsam amet, provident repellat molestias quia corporis sapiente quaerat placeat ut magni assumenda architecto inventore recusandae. Minima, molestiae maiores?</p>
+                </div>
+            </div>
+            <div class="course-items course2">
+                <div class="course-text">
+                    <a href="#"><img src="assets/images/img2.png" alt="kredo_icon"></a>
+                    <h3>Web Develop Course</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat eius, odit velit illo quasi enim provident adipisci mollitia inventore quae! Accusamus, culpa fuga nam dolorem cupiditate sequi illum ea? Quia.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="galary" id="galary">
+            <div class="blog-header">
+                <h2>Kredo Blog</h2>
+            </div>
+            <div class="blog-galary">
+                <div class="blog-items">
+                    <img src="assets/images/kredo-logo.png" alt="kredo-logo">
+                    <h3>Bernardine Rages: <a href="#">02/13/2023</a></h3>
+                </div>
+                <div class="blog-items">
+                    <img src="assets/images/kredo-logo.png" alt="kredo-logo">
+                    <h3>Roel Pagalan: <a href="#">02/13/2023</a></h3>
+                </div>
+                <div class="blog-items">
+                    <img src="assets/images/kredo-logo.png" alt="kredo-logo">
+                    <h3>Antonio Sylvester: <a href="#">03/05/2023</a></h3>
+                </div>
+                <div class="blog-items">
+                    <img src="assets/images/kredo-logo.png" alt="kredo-logo">
+                    <h3>Jose Marie Chan: <a href="#">03/11/2023</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- (4) Forms Area -->
+        <div class="forms">
+            <form action="#" method="#">
+                <div class="form-group">
+                    <h4>Book Course Schedule</h4>
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="full_name" id="full-name" required>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="name" required>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date" placeholder="mm/dd/yyyy" required>
+                    <input type="submit" name="book" value="Book">
+                </div>
+
+                <div class="form-group">
+                    <h4>Booking List</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Full Name</th>
+                                <th>Course</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>02/13/2023</td>
+                                <td>Bernardine Rages</td>
+                                <td>Bootcamp</td>
+                                <td id="reserved">Reserved</td>
+                            </tr>
+                            <tr class="gray">
+                                <td>02/13/2023</td>
+                                <td>Roel Pagalan</td>
+                                <td>Bootcamp</td>
+                                <td id="pending">Pending</td>
+                            </tr>
+                            <tr>
+                                <td>03/5/2023</td>
+                                <td>Antonio Sylvester</td>
+                                <td>Bootcamp</td>
+                                <td id="pending">Pending</td>
+                            </tr>
+                            <tr class="gray">
+                                <td>03/11/2023</td>
+                                <td>Jose Marie Chan</td>
+                                <td>Bootcamp</td>
+                                <td id="pending">Pending</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+
+         <!-- (5) Footer -->
+    <div class="social">
+        <div class="social-text">
+            <p>Designed by Kredo Japan Online (c)2022</p>
+        </div>
+    </div>
+
+    </div>    
+   
+</body>
+</html>

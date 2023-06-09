@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;    
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+/* (1) Header Area */
+
+.nav {
+    background-color: #eaeaea;
+    overflow: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 15px 0 15px;
+}
+
+.nav li a {
+    font-weight: 700;
+    color: #312a26;
+    text-decoration: none;
+}
+
+.nav img {
+    width: 100px;
+}
+
+.banner-2 {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 450px;
+    position: relative;
+    color: white;
+}
+
+.banner-img {
+    background-image: url('../images/atf.jpg');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* (2) Banner Area */
+.banner {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 450px;
+    position: relative;
+    color: white;
+}
+
+.black {
+    background-image: url('../images/atf.jpg');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner-text {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 7.5%;
+    transform: translateY(-50%);
+    width: 50%;
+    color: white;
+}
+
+.banner-text h3 {
+    font-size: 40px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em .8em;
+    background-color: rgb(196, 167, 114);
+    color: #fff;
+    font-weight: 300;
+    margin-top: .5em;
+    border-radius: 5px;
+}
+
+/* (3) Content Area */
+.content {
+    width: 75%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.content img {
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+    position: center;
+}
+
+.article1 img {
+    float: left;
+    margin-right: 1em;
+}
+
+.article1 {
+    float: left;
+    padding: 5%;
+}
+
+.article2 img {
+    float: right;
+    margin-left: 1em;
+}
+
+.article2  {
+    float: right;
+    padding: 5%;
+}
+
+.article2 a {
+    float: right;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em .8em;
+    background-color: rgb(196, 167, 114);
+    color: #fff;
+    font-weight: 300;
+    margin-top: .5em;
+    border-radius: 5px;
+}
+
+/* (3,5) Article Area */
+.course {
+    width: 75%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.course-header {
+    text-align: center;
+    margin: 2em;
+    font-size: 20px;
+}
+
+.course-items {
+    width: 45%;
+    float: left;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.course img {
+    width: 48.5%;
+    float: left;
+    margin-right: 2em;
+}
+
+.course-text h3 {
+    margin: .5em;
+}
+
+/* galary */
+.galary {
+    width: 80%;
+    margin: 4em auto;
+}
+
+.blog-galary {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-header h2 {
+    text-align: center;
+    margin: 2em;
+    font-size: 22px;
+}
+
+.blog-items h3 {
+    text-align: center;
+    padding: 5%;
+}
+
+.blog-items a {
+    text-align: center;
+    text-decoration: none;
+    color: #e0a13c;
+    font-weight: 800;
+    padding: .5em .8em;
+}
+
+.blog-items {
+    width: 24.5%;
+    float: left;
+}
+
+.blog-items img {
+    width: 100%;
+}
+
+.blog-items:nth-child(4) {
+    margin-right: 0;
+    
+}
+
+/* (4) Forms Area */
+.forms {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+.form-group {
+    margin-top: 2em;
+    background-color: rgb(196, 167, 114);
+    float: left;
+    width: 49.5%;
+    padding: 4em;
+    height: 400px;   
+}
+
+.form-group h4 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 22px;
+}
+
+form label {
+    width: 39.5%;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+form input {
+    width: 59.5%;
+    padding: .5em;
+    margin-top: 1em;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 1.5em; 
+    font-size: 15px;
+}
+
+table {
+    width: 90%;
+    height: 180px;
+    text-align: left;
+    margin-left: 2em;
+    font-size: 16px;
+}
+
+th {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1% ;
+}
+
+td {
+    padding: 1%;
+    padding-left: 8px;
+}
+
+#reserved {
+    background-color: #95dd5e;
+}
+
+.gray {
+    background-color: rgb(209, 207, 207);
+}
+
+#pending {
+    background-color: #e0a13c;
+}
+
+/* (5) Footer */
+
+.social-text {
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 1em;
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+}
